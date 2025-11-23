@@ -1,0 +1,7 @@
+{
+  "name": "Copy of Copy of Ultraman Phonics Battle",
+  "description": "A voice-interactive alphabet battle game powered by Gemini. Help Ultraman Zero defeat Kaijus by pronouncing letters correctly!",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
