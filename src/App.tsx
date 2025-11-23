@@ -12,8 +12,6 @@ interface Challenge {
 
 class ChallengeGenerator {
   private letters = [...LETTERS];
-  private words1 = [...GRADE_1_WORDS_SET_1];
-  private words2 = [...GRADE_1_WORDS_SET_2];
   private allWords = [...GRADE_1_WORDS_SET_1, ...GRADE_1_WORDS_SET_2];
 
   getChallenge(): Challenge {

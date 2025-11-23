@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect, useRef } from 'react';
 import { GameState, Monster, Player, TOTAL_LEVELS, Difficulty, ScoreEntry } from './types';
 import { MONSTER_PROMPTS, ULTRAMAN_IMAGE_PROMPT, LETTERS, FALLBACK_MONSTER, FALLBACK_ULTRAMAN, DIFFICULTY_CONFIG, BACKGROUNDS, GRADE_1_WORDS_SET_1, GRADE_1_WORDS_SET_2, MENU_BACKGROUND, GAME_OVER_BACKGROUND, VICTORY_BACKGROUND } from './constants';
@@ -13,8 +12,6 @@ interface Challenge {
 
 class ChallengeGenerator {
   private letters = [...LETTERS];
-  private words1 = [...GRADE_1_WORDS_SET_1];
-  private words2 = [...GRADE_1_WORDS_SET_2];
   private allWords = [...GRADE_1_WORDS_SET_1, ...GRADE_1_WORDS_SET_2];
 
   getChallenge(): Challenge {
